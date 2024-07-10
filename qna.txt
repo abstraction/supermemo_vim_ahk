@@ -1,0 +1,342 @@
+Q: sm vim: switch plans in the Plan Window
+A: s
+Q: sm vim: begin a plan in the Plan Window
+A: b (M-B)
+Q: sm vim: switch tasklists in the Tasklist Window
+A: s
+Q: sm vim: select text until the top of the text on screen in Visual Mode
+A: H
+Q: sm vim: select text until the middle of the text on screen in Visual Mode
+A: M
+Q: sm vim: select text until the bottom of the text on screen in Visual Mode
+A: L
+Q: sm vim: highlight text in Visual Mode
+A: m
+Q: sm vim: extract text in Visual Mode
+A: q
+Q: sm vim: perform a cloze in Visual Mode
+A: z
+Q: sm vim: clear the read point
+A: <M-m>
+Q: sm vim: go to the next sibling
+A: <M-S-j> (M-S-PgDn)
+Q: sm vim: go to the previous sibling
+A: <M-S-k> (M-S-PgUp)
+Q: sm vim: set a read point
+A: m
+Q: sm vim: go to the read point
+A: `
+Q: sm vim: perform a SuperMemo search in any mode?
+A: \ (Ctrl + F3)
+Q: sm vim: click the top of the text in Normal Mode
+A: H
+Q: sm vim: click the middle of the text in Normal Mode
+A: M
+Q: sm vim: click the bottom of the text in Normal Mode
+A: L
+Q: sm vim: add > to {count} lines in Normal Mode
+A: {count}<leader>q
+Q: sm vim: open the hyperlink in the current caret position
+A: gx
+Q: sm vim: open the current file in Vim
+A: gs
+Q: sm vim: open the current file in Notepad
+A: gf
+Q: sm vim: increase the indent in Normal Mode
+A: >>
+Q: sm vim: decrease the indent in Normal Mode
+A: <<
+Q: sm vim: find [...] and insert in any mode
+A: <C-M-.>
+Q: sm vim: delete an element and keep learning using Right Control and Right Shift
+A: <RC-RS-BS>
+Q: sm vim: indicate completion and keep learning using Right Control and Right Shift
+A: <RC-RS-\>
+Q: sm vim: delete an element and keep learning using Right Alt and Right Shift
+A: <RA-RS-BS>
+Q: sm vim: indicate completion and keep learning using Right Alt and Right Shift
+A: <RA-RS-\>
+Q: sm vim: change the current element's concept group
+A: <C-M-S-g>
+Q: sm vim: command for find next character
+A: f{character}
+Q: sm vim: command for find previous character
+A: F{character}
+Q: sm vim: command for find next character but put caret before it
+A: t{character}
+Q: sm vim: command for find previous character but put caret before it
+A: T{character}
+Q: sm vim: find next two characters
+A: s{2 characters}
+Q: sm vim: find previous two characters
+A: S{2 characters} (In visual mode it's <M-s>)
+Q: sm vim: repeat the last search in reverse
+A: ,
+Q: sm vim: jump paragraphs down
+A: }
+Q: sm vim: jump paragraphs up
+A: {
+Q: sm vim: move down 10 lines
+A: <C-d>
+Q: sm vim: move up 10 lines
+A: <C-u>
+Q: sm vim: go to the start of the next line
+A: +
+Q: sm vim: go to the start of the previous line
+A: -
+Q: sm vim: perform a cloze search
+A: <M-/>
+Q: sm vim: perform a cloze search with a cloze hinter
+A: <M-S-/>
+Q: sm vim: repeat the last search and go to visual mode
+A: gn
+Q: sm vim: search next/previous
+A: n/N
+Q: sm vim: perform operations on text
+A: {operator}{count}{motion} (Examples: diw, dip, ciw)
+Q: sm vim: repeat the last change
+A: .
+Q: sm vim: switch the case of the character after the cursor
+A: ~
+Q: sm vim: insert a new line below the current line
+A: o
+Q: sm vim: insert a new line above the current line
+A: O
+Q: sm vim: enter line-wise visual mode
+A: V
+Q: sm vim: enter paragraph-wise visual mode
+A: <C-V>
+Q: sm vim: duplicate a line
+A: yyp
+Q: sm vim: swap lines
+A: ddp
+Q: sm vim: swap characters
+A: xp
+Q: sm vim: go to the top of the text on the screen in Visual Mode
+A: H
+Q: sm vim: go to the middle of the text on the screen in Visual Mode
+A: M
+Q: sm vim: go to the bottom of the text on the screen in Visual Mode
+A: L
+Q: sm vim: click the source button
+A: gU
+Q: sm vim: open a link in IE
+A: gS
+Q: sm vim: open a link in the default browser
+A: gs
+Q: sm vim: go to the root element
+A: g0
+Q: sm vim: go to the last element
+A: g$
+Q: sm vim: go to the next component
+A: gc
+Q: sm vim: go to the previous component
+A: gC
+Q: sm vim: scroll down two times
+A: d
+Q: sm vim: scroll up two times
+A: u
+Q: sm vim: scroll to the top left
+A: 0
+Q: sm vim: scroll to the top right
+A: $
+Q: sm vim: reload and go to the top element and back
+A: r
+Q: sm vim: play the current element
+A: p (Ctrl + F10)
+Q: sm vim: play a video in the default system player or edit a script component
+A: P
+Q: sm vim: download images
+A: <C-i> (Ctrl + F8)
+Q: sm vim: open multiple links
+A: <M-f>
+Q: sm vim: open multiple links in IE
+A: <C-M-S-f>
+Q: sm vim: copy links
+A: yf
+Q: sm vim: select texts
+A: yv
+Q: sm vim: go to texts
+A: yc
+Q: sm vim: indicate completion
+A: X
+Q: sm vim: go down elements
+A: J / ge
+Q: sm vim: go up elements
+A: K / gE
+Q: sm vim: go to parents
+A: gu / <M-u>
+Q: sm vim: go back in history
+A: H / <M-h>
+Q: sm vim: go forward in history
+A: L / <M-l>
+Q: sm vim: open the browser
+A: b
+Q: sm vim: open favourites
+A: o
+Q: sm vim: click the first text component
+A: t
+Q: sm vim: copy the reference link
+A: yy
+Q: sm vim: duplicate the current element
+A: ye
+Q: sm vim: go to the nth paragraph
+A: {count}g{
+Q: sm vim: go to the nth paragraph on screen
+A: {count}g}
+Q: sm vim: open the hyperlink at the current caret position
+A: gx
+Q: sm vim: open the current file in Vim
+A: gs
+Q: sm vim: open the current file in Notepad
+A: gf
+Q: sm vim: add > to {count} lines
+A: {count}<leader>q
+Q: sm vim: change the default concept group
+A: <C-M-c>
+Q: sm vim: change the current element's concept group
+A: <C-M-S-g>
+Q: sm vim: parse HTML in Visual Mode
+A: <C-h>
+Q: sm vim: add an HTML tag in Visual Mode
+A: <M-a>
+Q: sm vim: extract with priority in Visual Mode
+A: Q
+Q: sm vim: extract and stay in the extracted element in Visual Mode
+A: <C-q>
+Q: sm vim: perform a cloze and stay in the clozed item in Visual Mode
+A: <C-z>
+Q: sm vim: perform a cloze hinter in Visual Mode
+A: Z
+Q: sm vim: cloze and delete the [...] in Visual Mode
+A: <CapsLock-z>
+Q: sm vim: find [...] and insert in any mode
+A: <C-M-.>
+Q: sm vim: delete an element and keep learning using right control and right shift
+A: <RC-RS-BS>
+Q: sm vim: indicate completion and keep learning using right control and right shift
+A: <RC-RS-\>
+Q: sm vim: delete an element and keep learning using right alt and right shift
+A: <RA-RS-BS>
+Q: sm vim: indicate completion and keep learning using right alt and right shift
+A: <RA-RS-\>
+Q: sm vim: cloze until a full stop
+A: zt.
+Q: sm vim: extract the inner paragraph
+A: qip
+Q: sm vim: command to reload the script
+A: <C-M-r>
+Q: sm vim: enter insert mode
+A: i
+Q: sm vim: enter visual mode
+A: v
+Q: sm vim: repeat the last search
+A: ;
+Q: sm vim: search the word under the cursor
+A: *
+Q: sm vim: delete a character after the cursor
+A: x
+Q: sm vim: delete a character before the cursor
+A: X
+Q: sm vim: undo the last change
+A: u
+Q: sm vim: redo the last undo
+A: <C-R>
+Q: sm vim: enter insert mode at the beginning of a line
+A: I
+Q: sm vim: yank (copy) text covered by a motion
+A: y{motion}
+Q: sm vim: paste after the cursor
+A: p
+Q: sm vim: paste at the cursor
+A: P
+Q: sm vim: go to the top element
+A: gg
+Q: sm vim: go to the bottom element
+A: G
+Q: sm vim: scroll down
+A: j / <C-e>
+Q: sm vim: scroll up
+A: k / <C-y>
+Q: sm vim: add a topic
+A: n (M-N)
+Q: sm vim: add an item
+A: N (M-A)
+Q: sm vim: delete an element/component
+A: x (Delete key)
+Q: sm vim: set a read point
+A: m
+Q: sm vim: go to the read point
+A: `
+Q: sm vim: clear the read point
+A: <M-m>
+Q: sm vim: increase indent
+A: >>
+Q: sm vim: decrease indent
+A: <<
+Q: sm vim: switch plans in the Plan Window
+A: s
+Q: sm vim: begin in the Plan Window
+A: b (M-B)
+Q: sm vim: switch tasklists in the Tasklist Window
+A: s
+Q: sm vim: mark (highlight) selected text in Visual Mode
+A: m
+Q: sm vim: extract (quote) selected text in Visual Mode
+A: q
+Q: sm vim: cloze selected text in Visual Mode
+A: z
+Q: sm vim: delete an element and keep learning
+A: <RC-RS-BS> / <RA-RS-BS>
+Q: sm vim: indicate that you are done and want to keep learning
+A: <RC-RS-\> / <RA-RS-\>
+--------------------------
+Q: sm vim: command that goes to the start of a line
+A: 0 / ^
+Q: sm vim: command that goes to the end of a line
+A: $ / g_
+Q: sm vim: What does q do
+A: Extract.
+Q: sm vim: What does z do
+A: Cloze.
+Q: sm vim: motion command that moves the cursor left
+A: h
+Q: sm vim: motion command that moves the cursor down
+A: j
+Q: sm vim: motion command that moves the cursor up
+A: k
+Q: sm vim: motion command that moves the cursor right
+A: l
+Q: sm vim: command for a normal search
+A: /
+Q: sm vim: command for a visual search
+A: ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
